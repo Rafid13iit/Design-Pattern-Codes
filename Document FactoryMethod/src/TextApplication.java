@@ -3,4 +3,3 @@ public class TextApplication extends Application {
     protected Document createDocument() {
         return new TextDocument();
     }
-}
