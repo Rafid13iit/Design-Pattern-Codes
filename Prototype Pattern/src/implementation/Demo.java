@@ -17,6 +17,7 @@ public class Demo {
         circle.y = 20;
         circle.radius = 15;
         circle.color = "red";
+        circle.font.setFontFace("Times New Roman"); // Set custom font for circle
         shapes.add(circle);
 
         Circle anotherCircle = (Circle) circle.clone();
