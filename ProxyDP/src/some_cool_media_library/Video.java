@@ -11,3 +11,5 @@ public class Video {
         this.data = "Random video.";
     }
 }
+
+// video class

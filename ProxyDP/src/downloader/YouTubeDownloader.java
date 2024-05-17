@@ -32,3 +32,19 @@ public class YouTubeDownloader {
         System.out.println("-------------------------------\n");
     }
 }
+
+// This class uses the ThirdPartyYouTubeLib interface to perform operations without knowing whether it is dealing with the real subject or the proxy.
+
+// YouTubeDownloader(ThirdPartyYouTubeLib api): Constructor that accepts an implementation of ThirdPartyYouTubeLib.
+// renderVideoPage(String videoId): Renders a video page using the getVideo method.
+// renderPopularVideos(): Renders a list of popular videos using the popularVideos method.
+
+
+
+// In Bangla:
+
+// এই ক্লাসটি ThirdPartyYouTubeLib ইন্টারফেস ব্যবহার করে অপারেশন সম্পন্ন করে, এটি জানে না এটি প্রকৃত সাবজেক্ট নাকি প্রক্সি ব্যবহার করছে।
+
+// YouTubeDownloader(ThirdPartyYouTubeLib api): কন্সট্রাক্টর যা ThirdPartyYouTubeLib এর একটি ইমপ্লিমেন্টেশন গ্রহণ করে।
+// renderVideoPage(String videoId): একটি ভিডিও পেজ রেন্ডার করে getVideo মেথড ব্যবহার করে।
+// renderPopularVideos(): জনপ্রিয় ভিডিওগুলির একটি লিস্ট রেন্ডার করে popularVideos মেথড ব্যবহার করে।

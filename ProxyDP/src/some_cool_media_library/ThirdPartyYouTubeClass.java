@@ -67,3 +67,21 @@ public class ThirdPartyYouTubeClass implements ThirdPartyYouTubeLib {
     }
 
 }
+
+
+// This class implements the ThirdPartyYouTubeLib interface and represents the actual object that performs the real work.
+
+// connectToServer(String server): Simulates a connection to a server.
+// experienceNetworkLatency(): Simulates network latency.
+// getRandomVideos(): Simulates downloading a list of popular videos.
+// getSomeVideo(String videoId): Simulates downloading a specific video.
+
+
+// In Bangla:
+
+// এই ক্লাসটি ThirdPartyYouTubeLib ইন্টারফেসটি ইমপ্লিমেন্ট করে এবং প্রকৃত কাজটি সম্পন্ন করে।
+
+// connectToServer(String server): সার্ভারে সংযোগ সিমুলেট করে।
+// experienceNetworkLatency(): নেটওয়ার্ক ল্যাটেন্সি সিমুলেট করে।
+// getRandomVideos(): জনপ্রিয় ভিডিওগুলির একটি লিস্ট ডাউনলোড করে।
+// getSomeVideo(String videoId): নির্দিষ্ট একটি ভিডিও ডাউনলোড করে।

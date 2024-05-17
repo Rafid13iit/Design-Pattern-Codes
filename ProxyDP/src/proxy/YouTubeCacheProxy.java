@@ -42,3 +42,20 @@ public class YouTubeCacheProxy implements ThirdPartyYouTubeLib {
         cacheAll.clear();
     }
 }
+
+// This class implements the same interface and acts as a proxy to the real subject. It adds additional functionality, such as caching.
+
+// YouTubeCacheProxy(): Initializes the real subject.
+// popularVideos(): Checks the cache first before calling the real subject's method. If the cache is empty, it fetches the data from the real subject and stores it in the cache.
+// getVideo(String videoId): Similar to popularVideos(), but it caches individual videos.
+// reset(): Clears the cache.
+
+
+// In Bangla:
+
+// এই ক্লাসটি একই ThirdPartyYouTubeLib ইন্টারফেস ইমপ্লিমেন্ট করে এবং প্রকৃত সাবজেক্টের প্রক্সি হিসাবে কাজ করে। এটি অতিরিক্ত ফাংশনালিটি যোগ করে, যেমন ক্যাশিং।
+
+// YouTubeCacheProxy(): প্রকৃত সাবজেক্ট ইনিশিয়ালাইজ করে।
+// popularVideos(): প্রথমে ক্যাশ চেক করে, যদি ক্যাশ খালি থাকে তাহলে প্রকৃত সাবজেক্টের মেথড কল করে এবং ক্যাশে সংরক্ষণ করে।
+// getVideo(String videoId): জনপ্রিয় ভিডিওর ক্ষেত্রে একই ভাবে কাজ করে, তবে এটি একক ভিডিও ক্যাশ করে।
+// reset(): ক্যাশ পরিষ্কার করে।

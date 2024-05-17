@@ -33,3 +33,16 @@ public class Demo {
         return estimatedTime;
     }
 }
+
+// This class demonstrates how the proxy pattern works by comparing the performance of the proxy and the real subject.
+
+// main(String[] args): Creates instances of YouTubeDownloader with the real subject and the proxy. It tests both and prints the time saved by using the proxy.
+// test(YouTubeDownloader downloader): Simulates user behavior and measures the time taken to perform operations.
+
+
+// In Bangla:
+
+// এই ক্লাসটি প্রক্সি প্যাটার্ন কিভাবে কাজ করে তা প্রদর্শন করে প্রক্সি এবং প্রকৃত সাবজেক্টের পারফরমেন্স তুলনা করে।
+
+// main(String[] args): প্রকৃত সাবজেক্ট এবং প্রক্সি সহ YouTubeDownloader এর ইনস্ট্যান্স তৈরি করে। এটি উভয়ের পরীক্ষা করে এবং প্রক্সি ব্যবহার করে সময় সেভ করে।
+// test(YouTubeDownloader downloader): ইউজারের আচরণ সিমুলেট করে এবং অপারেশন সম্পন্ন করতে সময় পরিমাপ করে।
