@@ -1,12 +1,9 @@
 package shapes;
 
-//import java.util.Objects;
-
 public abstract class Shape implements Cloneable {
     public int x;
     public int y;
     public String color;
-    public String font;
 
     public Shape() {
     }
@@ -16,21 +13,14 @@ public abstract class Shape implements Cloneable {
             this.x = target.x;
             this.y = target.y;
             this.color = target.color;
-            this.font = target.font;
         }
     }
 
     public abstract Shape clone();
-
-//    @Override
-//    public boolean equals(Object object2) {
-//        if (!(object2 instanceof Shape)) return false;
-//        Shape shape2 = (Shape) object2;
-//        return shape2.x == x && shape2.y == y && Objects.equals(shape2.color, color);
-//    }
 }
 
-
-
-
-
+/*
+ * Shape: This abstract class serves as the prototype interface. It declares the cloning method.
+ *
+ * Shape: এই এবস্ট্রাক্ট ক্লাসটি প্রোটোটাইপ ইন্টারফেস হিসাবে কাজ করে। এটি ক্লোনিং মেথড ঘোষণা করে।
+ */

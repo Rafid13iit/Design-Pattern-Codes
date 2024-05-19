@@ -5,7 +5,7 @@ import shapes.Rectangle;
 import shapes.Shape;
 import shapes.Square;
 import shapes.Triangle;
-import shapes.Font;
+import shapes.Font; // Import Font class
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,8 +42,8 @@ public class Client {
         triangle.color = "yellow";
         shapes.add(triangle);
         
-        Font fontObject = new Font();
-        fontObject.font = "Arial new";
+        Font fontObject = new Font(); // Create Font object
+        fontObject.font = "Arial new"; // Set font
         shapes.add(fontObject);
 
         cloneAndCompare(shapes, shapesCopy);
@@ -68,3 +68,9 @@ public class Client {
         }
     }
 }
+
+/*
+ * Client: This class demonstrates the Prototype pattern. It creates and compares clones of various shapes.
+ *
+ * Client: এই ক্লাসটি প্রোটোটাইপ প্যাটার্ন উদাহরণ দেখায়। এটি বিভিন্ন আকারের ক্লোন তৈরি এবং তাদের তুলনা করে।
+ */
