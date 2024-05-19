@@ -48,3 +48,11 @@ public class CarBuilder implements Builder {
         return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
+
+/*
+ * CarBuilder: This concrete builder implements the Builder interface and provides the steps 
+ * to create a Car object.
+ *
+ * CarBuilder: এই কংক্রিট বিল্ডার Builder ইন্টারফেসটি বাস্তবায়ন করে এবং একটি Car অবজেক্ট 
+ * তৈরি করার জন্য প্রয়োজনীয় ধাপগুলি প্রদান করে।
+ */

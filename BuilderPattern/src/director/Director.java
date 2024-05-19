@@ -35,3 +35,11 @@ public class Director {
         builder.setGPSNavigator(new GPSNavigator());
     }
 }
+
+/*
+ * Director: This class defines the order in which to call the construction steps. It contains
+ * methods to construct different types of cars using a builder.
+ *
+ * Director: এই ক্লাসটি নির্মাণ ধাপগুলিকে কোন ক্রমে কল করতে হবে তা সংজ্ঞায়িত করে। এটি একটি বিল্ডার 
+ * ব্যবহার করে বিভিন্ন ধরণের গাড়ি নির্মাণের জন্য পদ্ধতিগুলি অন্তর্ভুক্ত করে।
+ */

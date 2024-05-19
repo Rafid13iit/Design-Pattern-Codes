@@ -42,3 +42,11 @@ public class Manual {
         return info;
     }
 }
+
+/*
+ * Manual: This class represents the product being built by the CarManualBuilder. It contains 
+ * documentation for a car.
+ *
+ * Manual: এই ক্লাসটি CarManualBuilder দ্বারা তৈরি করা পণ্যটিকে উপস্থাপন করে। এটি একটি 
+ * গাড়ির জন্য ডকুমেন্টেশন অন্তর্ভুক্ত করে।
+ */

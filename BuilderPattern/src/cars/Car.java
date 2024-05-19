@@ -59,3 +59,11 @@ public class Car {
         return gpsNavigator;
     }
 }
+
+/*
+ * Car: This class represents the product being built by the CarBuilder. It contains all the 
+ * components of a car.
+ *
+ * Car: এই ক্লাসটি CarBuilder দ্বারা তৈরি করা পণ্যটিকে উপস্থাপন করে। এটি গাড়ির সমস্ত 
+ * কম্পোনেন্ট অন্তর্ভুক্ত করে।
+ */
