@@ -56,3 +56,11 @@ public class TV implements Device {
         System.out.println("------------------------------------\n");
     }
 }
+
+/*
+ * TV: This class implements the Device interface for a TV. It includes methods to control the TV's 
+ * power, volume, and channel.
+ *
+ * TV: এই ক্লাসটি টিভির জন্য Device ইন্টারফেসটি বাস্তবায়ন করে। এটি টিভির পাওয়ার, ভলিউম এবং 
+ * চ্যানেল নিয়ন্ত্রণের জন্য মেথড অন্তর্ভুক্ত করে।
+ */

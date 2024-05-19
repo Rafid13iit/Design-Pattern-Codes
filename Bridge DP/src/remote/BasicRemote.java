@@ -45,3 +45,11 @@ public class BasicRemote implements Remote {
         device.setChannel(device.getChannel() + 1);
     }
 }
+
+/*
+ * BasicRemote: This class implements the basic operations defined in the Remote interface and 
+ * interacts with the Device interface to perform these operations.
+ *
+ * BasicRemote: এই ক্লাসটি Remote ইন্টারফেসে নির্ধারিত মৌলিক অপারেশনগুলি বাস্তবায়ন করে এবং 
+ * এই অপারেশনগুলি সম্পাদনের জন্য Device ইন্টারফেসের সাথে ইন্টারঅ্যাক্ট করে।
+ */

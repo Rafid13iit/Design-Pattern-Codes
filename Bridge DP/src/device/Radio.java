@@ -56,3 +56,11 @@ public class Radio implements Device {
         System.out.println("------------------------------------\n");
     }
 }
+
+/*
+ * Radio: This class implements the Device interface for a radio. It includes methods to control the 
+ * radio's power, volume, and channel.
+ *
+ * Radio: এই ক্লাসটি রেডিওর জন্য Device ইন্টারফেসটি বাস্তবায়ন করে। এটি রেডিওর পাওয়ার, ভলিউম 
+ * এবং চ্যানেল নিয়ন্ত্রণের জন্য মেথড অন্তর্ভুক্ত করে।
+ */

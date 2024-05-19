@@ -25,3 +25,11 @@ public class Client {
         device.printStatus();
     }
 }
+
+/*
+ * Client: This class contains the main method where the application is executed. It demonstrates 
+ * how different devices (TV, Radio) can be controlled using both basic and advanced remotes.
+ *
+ * Client: এই ক্লাসটি প্রধান মেথড ধারণ করে যেখানে অ্যাপ্লিকেশনটি কার্যকর হয়। এটি দেখায় কিভাবে 
+ * বিভিন্ন ডিভাইস (টিভি, রেডিও) মৌলিক এবং উন্নত রিমোট ব্যবহার করে নিয়ন্ত্রণ করা যায়।
+ */
